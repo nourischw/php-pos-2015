@@ -1,0 +1,221 @@
+/* Tags style */
+body { font-family: Arial, Helvetica, Verdana, sans-serif, "新細明體"; margin-left: 0px; margin-right: 0px; }
+a, a:hover { text-decoration: none; }
+
+/* Floating style (f) */
+.fL { float: left; } 
+.fR { float: right; }
+
+/* Positive style (pos) */
+.posA { position: absolute !important; }
+.posR { position: relative; }
+.posFix { position: fixed; }
+
+/* Background color (bg) */
+.bgNone { background: rgba(0,0,0,0) }
+.bgGrey3 { background: #333333; }
+.bgGrey6 { background: #666666; }
+.bgGreyA { background: #AAAAAA; }
+.bgGreyC { background: #CCCCCC; }
+.bgGreyD { background: #DDDDDD; }
+.bgGreyE { background: #EEEEEE; }
+.bgWhite { background: white; }
+
+/* Font family (ff) */
+.ffMSBlack { font-family: "微軟正黑體", Arial, Helvetica, sans-serif; }
+.ffArial { font-family: Arial, Helvetica, sans-serif; }
+
+/* Font color (cr) */
+.crBlack { color: black; }
+.crGrey4A { color: #4A4A4A; }
+.crGrey6 { color: #666666; }
+.crGrey8 { color: #888888; }
+.crWhite { color: white; }
+.crRed { color: red; }
+.crGreen { color: green; }
+.crBlue { color: blue; }
+.crOrange { color: #F95110; }
+
+/* Font size (fs) */
+.fs9  { font-size: 9px;  }
+.fs10 { font-size: 10px; }
+.fs11 { font-size: 11px; }
+.fs12 { font-size: 12px; }
+.fs13 { font-size: 13px; }
+.fs14 { font-size: 14px; }
+.fs15 { font-size: 15px; }
+.fs16 { font-size: 16px; }
+.fs18 { font-size: 18px; }
+.fs19 { font-size: 19px; }
+.fs22 { font-size: 22px; }
+.fs23 { font-size: 23px; }
+.fs24 { font-size: 24px; }
+.fs25 { font-size: 25px; }
+.fs30 { font-size: 30px; }
+
+/* Font style */
+.noBold { font-weight: 500; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+
+/* Text align style (ta) */
+.taC { text-align: center; }
+.taR { text-align: right; }
+.taJ { text-align: justify; }
+
+/* Heigth style (h) */
+.h100 { height: 100%; }
+
+/* Width style (w) */
+.w100 { width: 100%; }
+
+/* Mouse style */
+.pointer { cursor: pointer; }
+
+/* Border style */
+.border { border: 1px solid #CCC; }
+.no_border, a img { border: 0 none; }
+
+/* Overflow style (of) */
+.ofHide { overflow: hidden; }
+
+/* Text decoration style (td) */
+.tdLT { text-decoration: line-through; }
+.tdNone { text-decoration: none; }
+
+/* Display style */
+.dIl { display: inline; }
+.dIb { display: inline-block; }
+.dIn { display: none; }
+
+/* No Padding Margin style */
+.noP { padding:0; }
+.noM { margin:0; }
+.noPM { padding:0; margin:0; }
+
+/* Deal border */
+.dealB { border: 1px solid #CCC; }
+
+/* Custom */
+#fixed_background { display: none; opacity: 0.7; z-index: 25; background: black; position: fixed; left: 0px; top: 0px; height: 100%; width: 100%; }
+
+/* Layout */
+
+@media ( max-width: 991px ){
+	#layout .show_banner { display: none; }
+}
+
+html, body, #container {
+	font-size: 13px;
+	font-family: Tahoma;
+	margin: 0;
+	padding: 0;
+	height: 100% !important;
+}
+
+#layout-header {
+    float: left;
+    background: black;
+    width: 100%;
+    line-height: 40px;
+    color: white; 
+    font-size: 30px;
+}
+
+#home_button {
+    float: left;
+    height: 28px;
+    margin-top: 6px;
+    line-height: 12px;
+    margin-right: 10px;
+}
+
+#layout-header_left_column {
+    float: left;
+    width: 80%;
+    font-weight: bold;
+}
+
+#layout-header_right_column {
+    float: left;
+    width: 20%;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.session_info_label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.div_center {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.layout-shop_code { 
+    float: left;
+    width: 20%;
+}
+
+.layout-staff_name { 
+    float: left;
+    width: 20%;
+}
+
+#layout-content {
+	padding-bottom: 25px;	
+	margin-top: 5px;
+    width: 1180px;
+	margin: 0 auto;
+}
+
+#layout-footer {
+    clear: both;
+    position: relative;
+    background: black;
+    color: white;
+    z-index: 5;
+    height: 25px;
+    margin-top: -25px;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.page_content {
+    float: left;
+    margin-top: 10px;
+}
+
+/* Bootstrap custom */
+.alert { border-radius: 5px; padding: 5px; margin-bottom: 5px; }
+
+.ui-datepicker-month, .ui-datepicker-year {
+    color: black !important;
+}
+
+#fixed_background {
+    color: rgba(0,0,0,0.8);
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.result_alert_box {
+    width: 500px;
+    left: 30%;
+    position: fixed;
+    top: 10%;
+    display: none;
+    z-index: 12;
+}
+
+.close_result_box {
+    color: #0099CC;
+    cursor: pointer;
+}

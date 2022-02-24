@@ -1,0 +1,213 @@
+.page_content {
+	width: 100%;
+} 
+
+.form_block {
+    background: #CCC;
+    width: 100%;
+	padding: 10px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.form_title { 
+	font-size: 14px;
+	border-bottom: 1px solid #888;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #888;
+}
+
+.field_column {
+	float: left;
+	width: 1040px;
+}
+
+.button_column {
+	float: left;
+	margin-left: 20px;
+	width: 100px;
+}
+
+.list_edit_button {
+	color: #BBB;
+	cursor: pointer;
+}
+
+.list_edit_button:hover {
+	color: #0099FF;
+}
+
+.form_row {
+	float: left;
+	line-height: 25px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.form_label {
+	float: left;
+	width: 100px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 0px !important;
+}
+
+.search_block_buttons {
+	width: 100px;
+}
+
+.text_field {
+	float: left;
+	padding: 0px !important;
+	padding-left: 2px !important;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 150px !important;
+}
+
+.input-group {
+	float: left;
+	width: 140px;
+}
+
+.list_container { 
+	float: left;
+	width: 100%;
+	height: 265px;
+}
+
+.left_list { 
+	float: left;
+	width: 900px;
+}
+
+.col_product_upc {
+	width: 150px;
+}
+
+.col_category {
+	margin-left: 10px;
+	width: 170px;
+}
+
+.col_product_name {
+	width: 450px;
+}
+
+.col_shop_qty {
+	width: 60px;
+}
+
+.right_list {
+	float: left;
+	margin-left: 20px;
+	width: 260px;
+}
+
+.col_location {
+	margin-left: 10px;
+	width: 140px;
+}
+
+.col_qty {
+	text-align: center;
+	width: 60px;
+}
+
+.total_records_column {
+	width: 170px;
+}
+
+.paging_bar_column {
+	width: 523px;
+}
+
+#list_items {
+	float: left;
+	width: 100%;
+	max-height: 450px;
+	overflow: auto;
+}
+
+.list_total_items_column {
+	line-height: 30px; 
+}
+
+.total_label {
+	float: left;
+	width: 80px;
+	text-align: right;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.list_button_row {
+	line-height: 30px;
+}
+
+.product_image {
+	max-width: 100px;
+	max-height: 100px;
+	border: 1px solid black;
+}
+
+.total_records_column {
+	margin-left: 5px;
+}
+
+#list_select_first_message,
+#no_record_message {
+	background: #EEE;
+	width: 100%;
+	line-height: 25px;
+	padding-left: 10px;
+	font-style: italic;
+	color: #666;
+}
+
+#no_record_message,
+#shop_qty_loading_message,
+#product_list_loading_message {
+	display: none;
+}
+
+#shop_qty_location_list .list_item_row {
+	background: white;
+}
+
+.no_qty {
+	background: #F2DEDE !important;
+}
+
+.qty_warning {
+	background: #FCF8E3 !important;
+}
+
+.legend_row {
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.color_block {
+	float: left;
+	height: 20px;
+	width: 30px;
+	border: 1px solid black;
+}
+
+.color_label {
+	float: left;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.prodcuct_images{
+	width: 100px;
+	height: 100px;
+}

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: 
+Crawl-delay: 120
+Disallow: /cgi-bin/
+Disallow: /crm2/
+Disallow: /demo/
+Disallow: /images/
+Disallow: /.htaccess
+Disallow: /*.js
+Disallow: /*.css
+Disallow: /*.xml

@@ -1,0 +1,14 @@
+{
+	"REQUIRED": "Required",
+	"RADIO_NOT_CHECKED" : "Please select an option",
+	"CHECKBOX_NOT_CHECKED" : "Please select an option",
+	"WRONG_ALPHABETIC_FORMAT" : "Only letters allowed",
+	"WRONG_NUMERIC_FORMAT" : "Only numbers allowed",
+	"WRONG_VALUE_LENGTH" : "Please input at least ",
+	"WRONG_VALUE_LENGTH_STRING" : " letters",
+	"WRONG_VALUE_LENGTH_NUMBER" : " digits",
+	"ZERO_VALUE_NOT_ALLOWED": "Must larger than 0",
+	"NO_SELECTED_OPTION" : "Please select an option",
+	"WRONG_EMAIL_FORMAT" : "Invalid email format",
+	"PASSWORD_NOT_CONFIRMED" : "Passwords are not same"
+}

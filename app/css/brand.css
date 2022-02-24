@@ -1,0 +1,438 @@
+.id_row {
+	float: left;
+	width: 100%;
+	background: #CCC;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.id_label {
+	float: left;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.left_column { 
+	float: left;
+	width: 860px;
+}
+
+.right_column {
+	float: left;
+	margin-left: 20px;
+	width: 250px;
+}
+
+.left_column_form_block {
+    background: #CCC;
+    width: 100%;
+	padding: 10px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.form_block {
+	background: #CCC;
+	width: 380px;
+	float: left;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.form_title { 
+	font-size: 14px;
+	border-bottom: 1px solid #888;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #888;
+}
+
+.form_row {
+	float: left;
+	line-height: 25px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.shop_name_label {
+	float: left;
+	width: 80px;
+}
+
+.brand_text_field {
+	float: left;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 187px !important;
+	padding: 0 6px !important;
+}
+
+#supplier_shop_name { 
+	float: left;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 180px;
+}
+
+.form_label {
+	float: left;
+	width: 120px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 0px !important;
+}
+
+.text_field {
+	float: left;
+	padding: 0px !important;
+	padding-left: 2px !important;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 230px;
+}
+
+.textarea_field{
+	height: 130px !important;
+}
+
+.calendar_icon {
+	border: 1px solid #AAA !important;
+	border-right: 0px !important;
+	padding: 0px 5px !important;
+	padding-left: 5px !important;
+	padding-right: 3px !important;
+}
+
+#order_date {
+	background: white;
+	cursor: pointer;
+}
+
+.text_field_short {
+	float: left;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 165px;
+}
+
+.list_container { 
+	float: left;
+	width: 100%;
+	height: 280px;
+}
+
+.col_no_row{
+	margin-left: 10px;
+	width: 50px;
+}
+.col_check_row{
+	width: 50px;
+}
+
+.col_product_upc{
+	width: 130px;
+	overflow: hidden;
+}
+
+.col_product_name{
+	width: 370px;
+}
+
+.col_brand_name{
+	width: 200px;
+}
+
+.col_update_by{
+	width: 200px;
+}
+
+.col_update_date{
+	width: 200px;
+}
+
+.col_supplier{
+	width: 100px;
+}
+
+.col_ship_to{
+	width: 100px;
+}
+
+.col_qty{
+	width: 60px;
+}
+
+.col_amount{
+	width: 100px;
+}
+
+.col_update_by{
+	width: 100px;
+}
+
+.col_create_date{
+	width: 200px;
+}
+
+.col_num_row{
+	margin-left: 150px;
+	width: 100px;
+}
+
+.col_serial_number_row {
+	width: 200px;
+}
+
+.col_item_row{
+	width: 100px;
+	margin-right: 30px;
+}
+
+.list_checkbox_column { width: 30px !important; }
+
+.gi_record_head{ 
+	background: linear-gradient(to bottom, rgba(254,254,254,1) 2%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 30%, rgba(226,226,226,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2', GradientType=0 );
+	line-height: 25px;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	margin: 0;
+}
+
+.product_name_text {
+	margin-left: 10px;
+	line-height: 28px;
+}
+
+.new_item_text_field {
+	float: left;
+	border: 1px solid #AAA;
+	margin-left: 10px;
+	border-radius: 3px;
+	height: 25px;
+	padding: 0px 5px;
+}
+
+.new_item_text_field_g {
+	border: 1px solid #AAA;
+	margin-left: 10px;
+	border-radius: 3px;
+	height: 25px;
+	padding: 0px 5px;
+	 display: inline;
+}
+
+.brand_search_text_field { 
+	float: left;
+	width: 100%;
+}
+
+.product_upc_text_field {
+	width: 200px !important;
+	line-height: 25px;
+	margin-left: 18px;
+}
+
+.text_field_buttons {
+	float: left;
+	height: 25px; 
+	line-height: 10px;
+	font-size: 10px;
+}
+
+.text_field_button {
+	height: 25px;
+	float: left;
+	line-height: 10px;
+	border: 1px solid #AAA !important;
+	position: absolute;
+	padding: 4px !important;
+}
+
+#get_product_name_button {
+	position: absolute;
+}
+
+.qty_field {
+	float: left;
+	width: 190px;
+}
+
+.qty_text_field { 
+	width: 62px;
+}
+
+.unit_price_field {
+	float: left;
+	width: 200px;
+}
+
+.unit_price_text_field {
+	width: 100px;
+}
+
+.add_item_button {
+	float: left;
+	height: 25px;
+	line-height: 14px;
+}
+
+.form-error_message {
+	text-align: center;
+	float: left;
+	color: red;
+	font-weight: bold;
+	width: 100%;
+}
+.brand_item_list {
+	float: left;
+	width: 100%;
+	max-height: 405px;
+	overflow: auto;
+}
+
+.list_text_field {
+	height: 18px;
+	padding: 0px 2px !important; 	
+}
+
+.list_product_qty {
+	width: 50px; 
+}
+
+.list_product_unit_price {
+	width: 90px; 
+}
+
+.bottom_block {
+	float: left;
+	width: 100%;
+	border-top: 1px solid black;
+}
+
+.remark_block {
+	float: left;
+	width: 65%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.remark_textarea {
+	height: 60px !important;
+}
+
+.total_amount_block {
+	float: left;
+	width: 35%;
+	margin-top: 10px;
+}
+
+.total_amount_row {
+	float: left;
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: right;
+	width: 100%;
+}
+
+.total_amount_row_label {
+	float: left;
+	width: 130px;
+	margin-right: 20px;
+}
+
+.total_amount_row_text { 
+	float: left;
+	width: 150px;
+}
+
+.discount_text_field {
+	float: left;
+	width: 123px;
+	margin-left: 5px;
+	text-align: right;
+	font-size: 16px;
+}
+
+.net_total_error_message { 
+	display: none;
+}
+
+.right_column .form-error_message {
+	/* margin-left: 90px; */
+}
+
+.submit_button_row {
+	float: left;
+	padding: 10px;
+	background: #999;
+	width: 1230px;
+	margin-bottom: 20px;
+}
+
+#no_list_item_error_message { 
+	display: none;
+}
+
+.result_alert_box {
+	width: 500px;
+	left: 30%;
+	position: fixed;
+	top: 10%;
+	display: none;
+	z-index: 12;
+}
+
+.close_result_box { 
+	color: #0099CC;
+	cursor: pointer;
+}
+
+.popup_list_items {
+	overflow: auto;
+	height: 300px;
+	width: 100%;
+}
+
+.popup_list_no_record_found_message { 
+	display: none;
+	line-height: 30px;
+	margin-left: 15px;
+}
+.modal-footer{
+	padding: 0px;
+}
+.list_pagination{
+	margin-top: 25px;
+}
+.product_block_buttons{
+	width: 100px;
+}
+.product_submit, .product_edit{
+	float: right;
+}
+
+.list_pagination { height: 80px; }
+.modal-content { height: 180px; }
+.brand_confirm_footer { padding: 10px; }
+
+
+.info { background: #d9edf7 !important; }
+
+.new_info { background: #cdbfe3; }
+
+#brand_list_popup .col_brand_id { margin-left: 10px; width: 100px; }
+#brand_list_popup .col_brand_name { margin-left: 10px; width: 200px; }
+#brand_list_popup .col_brand_remark { margin-left: 10px; width: 300px; }
+#brand_list_popup .col_brand_update_by { margin-left: 10px; width: 100px; }

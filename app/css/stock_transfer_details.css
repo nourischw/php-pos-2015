@@ -1,0 +1,269 @@
+.left_column { 
+	float: left;
+	width: 860px;
+}
+
+.right_column {
+	float: left;
+	margin-left: 20px;
+	width: 250px;
+}
+
+.left_column_form_block {
+    background: #CCC;
+    width: 100%;
+	padding: 10px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.form_block {
+	background: #CCC;
+	width: 300px;
+	float: left;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.stock_block_buttons {
+	width: 100px;
+}
+
+.form_title { 
+	font-size: 14px;
+	border-bottom: 1px solid #888;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #888;
+}
+
+.form_row {
+	float: left;
+	line-height: 25px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.form_label {
+	float: left;
+	width: 80px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 0px !important;
+}
+
+.text_field {
+	float: left;
+	padding: 0px !important;
+	padding-left: 2px !important;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 190px;
+}
+
+.calendar_icon {
+	border: 1px solid #AAA !important;
+	border-right: 0px !important;
+	padding: 0px 5px !important;
+	padding-left: 5px !important;
+	padding-right: 3px !important;
+}
+
+#date_in {
+	background: white;
+	cursor: pointer;
+}
+
+.list_container { 
+	float: left;
+	width: 100%;
+	height: 490px;
+}
+
+.form-error_message {
+	float: left;
+	color: red;
+	font-weight: bold;
+}
+
+.list_items {
+	float: left;
+	max-height: 413px;
+	overflow: auto;
+	width: 100%;
+}
+
+.list_total_items_column {
+	line-height: 14px; 
+}
+
+.total_label {
+	float: left;
+	width: 80px;
+	text-align: right;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.remark_textarea {
+	width: 280px;
+}
+
+.submit_button_row {
+	float: left;
+	padding: 10px;
+	background: #999;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.result_alert_box {
+	width: 500px;
+	left: 30%;
+	position: fixed;
+	top: 10%;
+	display: none;
+	z-index: 12;
+}
+
+.close_result_box { 
+	color: #0099CC;
+	cursor: pointer;
+}
+
+#stock_transfer_details .col_index {
+	width: 20px;
+}
+
+#stock_transfer_details .col_product_upc {
+	margin-left: 10px;
+	width: 150px;
+	word-break: break-all;
+}
+
+#stock_transfer_details .col_product_name {
+	width: 450px;
+}
+
+#stock_transfer_details .product_sn {
+	color: #555;
+	font-style: italic;
+	font-size: 10px;
+}
+
+#stock_transfer .col_qty {
+	text-align: center;
+	width: 60px;
+}
+
+.transfer_data_block {
+	background: #CCC;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 12px;
+}
+
+#transfer_data_block .form_row {
+	line-height: 30px;
+	margin: 5px 0px;
+}
+
+#transfer_data_block .form_checkbox {
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+#transfer_data_block .form_label {
+	float: left;
+	width: 120px;
+}
+
+#transfer_data_block .text_field {
+	float: left;
+	width: 150px;
+	margin-right: 20px;
+	margin-top: 3px;
+}
+
+#transfer_data_block .start_transfer_button {
+	float: left;
+	width: 150px;
+	line-height: 20px;
+	margin-top: 3px;
+}
+
+#confirmDeliverStockTransfer .modal-header {
+	background: #AAA;
+	color: white;
+	font-size: 16px;
+	height: 50px;
+}
+
+#confirmDeliverStockTransfer .modal-body {
+	margin-bottom: 0px;
+}
+
+#confirmDeliverStockTransfer .form_header {
+	width: 95%;
+	float: left;
+}
+
+#confirmDeliverStockTransfer .delivery_info {
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 24px;
+	background: #AAA;
+	color: white;
+}
+
+#confirmDeliverStockTransfer .row {
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+
+#confirmDeliverStockTransfer .form_label {
+	width: 100px;
+	margin-right: 10px;
+}
+
+#confirmDeliverStockTransfer .form_field {
+	max-width: 300px;
+}
+
+#confirmDeliverStockTransfer .staff_block {
+	background: #AAA;
+	margin-top: 20px;
+	padding-top: 10px;
+	margin-bottom: -20px;
+}
+
+#confirmDeliverStockTransfer .staff_block .form_label {
+	float: left;
+	color: white;
+	width: 400px;
+}
+
+#confirmDeliverStockTransfer .mark_finish_checkbox {
+	margin-left: 110px;
+	margin-right: 5px;
+	margin-top: 6px;
+	float: left;
+}
+
+#confirmDeliverStockTransfer .staff_block .form_field {
+	float: left;
+}
+
+#confirmDeliverStockTransfer .staff_block .form-control {
+	height: 25px;
+}
+
+#new_to_shop option:disabled {
+	background: #CCC !important;
+}

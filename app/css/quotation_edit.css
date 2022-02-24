@@ -1,0 +1,312 @@
+.form_title { 
+	font-size: 14px;
+	border-bottom: 1px solid #888;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #888;
+}
+
+.form_block {
+	background: #CCC;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.left_column {
+	float: left;
+	width: 49%;
+	margin-right: 2%;
+}
+
+.right_column {
+	float: left;
+	width: 49%;
+}
+
+.form_row {
+	float: left;
+	line-height: 25px;
+	width: 100%;
+}
+
+.form_label {
+	float: left;
+	width: 120px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 0px !important;
+}
+
+.calendar_icon {
+	border: 1px solid #AAA !important;
+	border-right: 0px !important;
+	padding: 0px 5px !important;
+	padding-left: 5px !important;
+	padding-right: 3px !important;
+}
+
+.calendar_text_field {
+	float: left;
+	padding: 0px !important;
+	padding-left: 2px !important;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 167px !important;
+}
+
+.text_field {
+	float: left;
+	padding: 0px !important;
+	padding-left: 2px !important;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 190px;
+}
+
+.form-error_message {
+	color: red;
+	font-weight: bold;
+}
+
+.remark_block {
+	height: 126px !important;
+}
+
+.list_container { 
+	float: left;
+	width: 100%;
+	height: 342px;
+}
+
+.col_product_upc {
+	margin-left: 10px;
+	width: 150px;
+}
+
+.col_product_name {
+	width: 430px;
+}
+
+.col_qty {
+	width: 70px;
+}
+
+.col_unit_price {
+	width: 90px;
+}
+
+.col_item_total {
+	width: 80px;
+}
+
+#list_items {
+	float: left;
+	width: 100%;
+	max-height: 195px;
+	overflow: hidden;
+}
+
+.list_total_row {
+	background: #CCC;
+    float: left;
+    padding: 5px;
+    width: 100%;
+}
+
+.total_items_field {
+	margin-left: 580px;
+}
+
+.total_field_column { 
+	float: left;
+	width: 130px;
+}
+
+.total_label {
+	float: left;
+	width: 80px;
+	text-align: right;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.bottom_block {
+	float: left;
+	width: 100%;
+	border-top: 1px solid black;
+}
+
+.comment_block {
+	float: left;
+	width: 65%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.new_item_label {
+	float: left;
+	line-height: 25px;
+	margin-right: 10px;
+}
+
+.product_name_text {
+	margin-left: 10px;
+}
+
+.new_item_text_field {
+	float: left;
+	border: 1px solid #AAA;
+	margin-left: 10px;
+	border-radius: 3px;
+	height: 25px;
+	padding: 0px 5px;
+}
+
+.product_name_field { 
+	float: left;
+	width: 400px;
+}
+
+.product_name_text_field {
+	width: 200px !important;
+	line-height: 25px;
+	margin-left: 18px;
+}
+
+.product_qty {
+	width: 50px !important;
+}
+
+.text_field_buttons {
+	float: left;
+	height: 25px; 
+	line-height: 10px;
+	font-size: 10px;
+}
+
+.text_field_button {
+	height: 25px;
+	float: left;
+	line-height: 10px;
+	border: 1px solid #AAA !important;
+	position: absolute;
+	padding: 4px !important;
+}
+
+#get_product_name_button {
+	position: absolute;
+}
+
+.qty_field {
+	float: left;
+	width: 190px;
+}
+
+.qty_text_field { 
+	width: 62px;
+}
+
+.unit_price_field {
+	float: left;
+	width: 200px;
+}
+
+.unit_price_text_field {
+	width: 100px;
+}
+
+.add_item_button {
+	float: left;
+	height: 25px;
+	line-height: 14px;
+}
+
+.list_text_field {
+	height: 18px;
+	padding: 0px 2px !important; 	
+}
+
+.list_product_qty {
+	width: 50px; 
+}
+
+.list_product_unit_price {
+	width: 90px; 
+}
+
+.list_total_items_column {
+	line-height: 14px; 
+}
+
+#no_list_item_error_message { 
+	display: none;
+}
+
+#product_popup_list .col_upc {
+	margin-left: 10px;
+	width: 150px;
+}
+
+#product_popup_list .col_name {
+	width: 550px;
+}
+
+.popup_list_items {
+	overflow: auto;
+	height: 300px;
+	width: 100%;
+}
+
+.popup_list_no_record_found_message { 
+	display: none;
+	line-height: 30px;
+	margin-left: 15px;
+}
+
+.total_amount_block {
+	float: left;
+	width: 35%;
+	margin-top: 10px;
+}
+
+.total_amount_row {
+	float: left;
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: right;
+	width: 100%;
+}
+
+.total_amount_row_label {
+	float: left;
+	width: 230px;
+	margin-right: 20px;
+}
+
+.total_amount_row_text { 
+	float: left;
+	width: 150px;
+}
+
+.discount_text_field {
+	float: left;
+	width: 123px;
+	margin-left: 5px;
+	text-align: right;
+	font-size: 16px;
+}
+
+#sub_total_error_message {
+	display: none;
+}
+
+#create_new_record_button {
+	margin-left: 20px;
+}

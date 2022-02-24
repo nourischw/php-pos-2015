@@ -1,0 +1,750 @@
+.page_content{
+	margin-top: -10px;
+}
+
+.id_row {
+	float: left;
+	width: 1230px;
+	background: #CCC;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.id_label {
+	float: left;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.left_column {
+	float: left;
+	width: 860px;
+}
+
+.right_column {
+	float: left;
+	margin-left: 20px;
+	width: 250px;
+}
+
+.left_column_form_block {
+    background: #CCC;
+    width: 100%;
+	padding: 10px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.form_block {
+	background: #CCC;
+	width: 350px;
+	float: left;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.form_title {
+	font-size: 14px;
+	border-bottom: 1px solid #888;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #888;
+}
+
+.form_row {
+	float: left;
+	line-height: 25px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.form_row_toggle {
+	float: left;
+	line-height: 25px;
+	width: 100%;
+	height: 30px;
+}
+
+.shop_name_label {
+	float: left;
+	width: 80px;
+}
+
+.product_text_field {
+	float: left;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 145px !important;
+	padding: 0 6px !important;
+}
+
+.product_text_field_spec {
+	float: left;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 105px !important;
+	padding: 0 6px !important;
+}
+
+
+#supplier_shop_name {
+	float: left;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 180px;
+}
+
+.form_label {
+	float: left;
+	width: 110px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 0px !important;
+}
+
+.form_label_deposit {
+	float: left;
+	width: 63px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 0px !important;
+}
+
+.text_field {
+	float: left;
+	padding: 0px !important;
+	padding-left: 2px !important;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 135px !important;
+}
+
+.calendar_icon {
+	border: 1px solid #AAA !important;
+	border-right: 0px !important;
+	padding: 0px 5px !important;
+	padding-left: 5px !important;
+	padding-right: 3px !important;
+}
+
+#order_date {
+	background: white;
+	cursor: pointer;
+}
+
+.text_field_short {
+	float: left;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 165px;
+}
+
+.list_container {
+	float: left;
+	width: 100%;
+	height: 295px;
+}
+
+.col_no_row{
+	margin-left: 10px;
+	width: 16px;
+}
+.col_check_row{
+	width: 50px;
+}
+
+.col_deposit_upc{
+	width: 130px;
+}
+.col_product_upc{
+	width: 130px;
+}
+
+.col_product_name{
+	width: 230px;
+	overflow: auto;
+}
+
+.col_deposit_qty{
+	width: 80px;
+}
+
+.col_unit_price{
+	width: 80px;
+}
+
+.col_total_price{
+	width: 80px;
+}
+
+.col_serial_number{
+	width: 125px;
+}
+
+.col_product_qty{
+	width: 40px;
+}
+
+.col_product_unit_price{
+	width: 62px;
+}
+
+.col_product_discount{
+	width: 45px;
+}
+
+.col_product_discount_price{
+	width: 55px;
+}
+
+.col_product_total{
+	width: 60px;
+}
+
+.gi_record_head{
+	background: linear-gradient(to bottom, rgba(254,254,254,1) 2%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 30%, rgba(226,226,226,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2', GradientType=0 );
+	line-height: 25px;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	margin: 0;
+}
+
+.product_name_text {
+	margin-left: 10px;
+	line-height: 28px;
+}
+
+.new_item_text_field {
+	float: left;
+	border: 1px solid #AAA;
+	margin-left: 10px;
+	border-radius: 3px;
+	height: 25px;
+	padding: 0px 5px;
+}
+
+.new_item_text_field_g {
+	border: 1px solid #AAA;
+	margin-left: 10px;
+	border-radius: 3px;
+	height: 25px;
+	padding: 0px 5px;
+	 display: inline;
+}
+
+.product_upc_field {
+	float: left;
+	width: 400px;
+}
+
+.product_upc_text_field {
+	width: 200px !important;
+	line-height: 25px;
+	margin-left: 18px;
+}
+
+.text_field_buttons {
+	height: 25px;
+	line-height: 10px;
+	font-size: 10px;
+}
+
+.text_field_button {
+	height: 25px;
+	float: left;
+	line-height: 10px;
+	border: 1px solid #AAA !important;
+	position: absolute;
+	padding: 4px !important;
+}
+
+#get_product_name_button {
+	position: absolute;
+}
+
+.qty_field {
+	float: left;
+	width: 190px;
+}
+
+.qty_text_field {
+	width: 62px;
+}
+
+.unit_price_field {
+	float: left;
+	width: 200px;
+}
+
+.unit_price_text_field {
+	width: 100px;
+}
+
+.add_item_button {
+	float: left;
+	height: 25px;
+	line-height: 14px;
+}
+
+.form-error_message {
+	text-align: center;
+	float: left;
+	color: red;
+	font-weight: bold;
+	width: 100%;
+}
+
+.product_submit {
+	text-align: right;
+}
+
+#list_items {
+	float: left;
+	width: 100%;
+	max-height: 240px;
+	overflow: auto;
+}
+
+.list_text_field {
+	height: 18px;
+	padding: 0px 2px !important;
+}
+
+.list_product_qty {
+	width: 50px;
+}
+
+.list_product_unit_price {
+	width: 90px;
+}
+
+.bottom_block {
+	float: left;
+	width: 100%;
+	border-top: 1px solid black;
+}
+
+.remark_block {
+	float: left;
+	width: 65%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.remark_textarea {
+	height: 110px !important;
+}
+
+.total_amount_block {
+	float: left;
+	width: 35%;
+	margin-top: 10px;
+}
+
+.total_amount_row {
+	float: left;
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: right;
+	width: 100%;
+}
+
+
+.total_deposit_row {
+	float: left;
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: right;
+	width: 100%;
+}
+
+.total_amount_row_label {
+	float: left;
+	width: 130px;
+	margin-right: 20px;
+}
+
+.total_amount_row_text {
+	float: left;
+	width: 150px;
+}
+
+.total_deposit_row_label {
+	float: left;
+	width: 130px;
+	margin-right: 20px;
+}
+
+.total_deposit_row_text {
+	float: left;
+	width: 150px;
+}
+
+.discount_text_field {
+	float: left;
+	width: 123px;
+	margin-left: 5px;
+	text-align: right;
+	font-size: 16px;
+}
+
+.net_total_error_message {
+	display: none;
+}
+
+.right_column .form-error_message {
+	/* margin-left: 90px; */
+}
+
+.submit_button_row {
+	float: left;
+	padding: 10px;
+	background: #999;
+	width: 1230px;
+	margin-bottom: 20px;
+}
+
+#no_list_item_error_message {
+	display: none;
+}
+
+.result_alert_box {
+	width: 500px;
+	left: 30%;
+	position: fixed;
+	top: 10%;
+	display: none;
+	z-index: 12;
+}
+
+.close_result_box {
+	color: #0099CC;
+	cursor: pointer;
+}
+
+.sales_status_button {
+	width: 90px;
+	margin-top: 3px;
+}
+
+.search_status_button {
+	width: 100px;
+	margin-top: 3px;
+	border-radius: 3px !important;
+	height: 25px;
+}
+
+.text_field_shop {
+  float: left;
+  padding: 0px !important;
+  padding-left: 2px !important;
+  border: 1px solid #AAA;
+  border-radius: 3px;
+  height: 25px;
+  width: 190px;
+}
+
+#change_from_shop_button {
+  float: left;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.from_shop_info_row {
+  float: left;
+  width: 85%;
+  line-height: 25px;
+}
+
+#stock_transfer .col_index {
+	width: 20px;
+}
+
+#stock_transfer .col_product_upc {
+	width: 150px;
+	word-break: break-all;
+}
+
+#stock_transfer .col_product_name {
+	width: 450px;
+}
+
+#stock_transfer .product_sn {
+	color: #555;
+	font-style: italic;
+	font-size: 10px;
+}
+
+#stock_transfer .col_from_shop {
+	width: 120px;
+}
+
+#stock_transfer .col_to_shop {
+	width: 120px;
+}
+
+#stock_transfer .col_qty {
+	text-align: center;
+	width: 60px;
+}
+
+#stock_transfer .col_remain {
+	width: 60px;
+	text-align: center;
+}
+
+#stock_popup_list .form_label {
+	width: 100px;
+}
+
+#stock_popup_list .text_field {
+	width: 175px !important;
+}
+
+#stock_popup_list .col_product_upc {
+	margin-left: 10px;
+	width: 150px;
+}
+
+#stock_popup_list .col_product_name {
+	width: 360px;
+}
+
+#stock_popup_list .col_serial_number {
+	width: 200px;
+}
+
+#stock_popup_list .col_qty {
+	width: 80px;
+}
+
+#stock_popup_list .col_unit_price {
+	width: 80px;
+}
+
+#invoice_date, #order_date{
+	width: 168px;
+}
+.popup_list_items {
+	overflow: auto;
+	height: 300px;
+	width: 100%;
+}
+
+.popup_list_no_record_found_message {
+	display: none;
+	line-height: 30px;
+	margin-left: 15px;
+}
+
+/* pop up */
+.modal-dialog {
+	width: 850px;
+}
+.sales_confirm_field{
+	width: 120px;
+}
+.payment_confirm_field{
+	width: 120px;
+}
+.popup_field{
+	width: 200px !important;
+}
+.input-group .form-control{
+	width: 150px;
+}
+.quick_search{
+	margin-top: 3px !important;
+}
+.left_margin{
+	margin-right: 10px;
+	width: 120px;
+}
+.left_margin_spec{
+	margin-right:15px;
+	width: 100px;
+}
+.pre_add_title{
+	font-size: 12px;
+}
+.deposit_text_field {
+	float: left;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 180px !important;
+	padding: 0 6px !important;
+}
+.quotation_text_field {
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 180px !important;
+	padding: 0 6px !important;
+}
+.discount_amount_text_field {
+	float: left;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 175px !important;
+	padding: 0 6px !important;
+}
+.give_discount_text_field{
+	padding: 0px !important;
+	padding-left: 2px !important;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+}
+
+#deposit_popup_list .col_deposit_number {
+	margin-left: 10px;
+	width: 120px;
+}
+
+#deposit_popup_list .col_deposit_date {
+	width: 100px;
+}
+
+#deposit_popup_list .col_deposit_type {
+	width: 100px;
+}
+
+#deposit_popup_list .col_deposit_terms {
+	width: 100px;
+}
+
+#deposit_popup_list .col_total_items {
+	width: 40px;
+}
+
+#deposit_popup_list .col_total_qty {
+	width: 60px;
+}
+
+#deposit_popup_list .col_amount {
+	width: 100px;
+}
+
+#quotation_popup_list .col_quotation_number {
+	margin-left: 10px;
+	width: 120px;
+}
+
+#quotation_popup_list .col_quote_date {
+	width: 80px;
+}
+
+#quotation_popup_list .col_quote_type {
+	width: 80px;
+}
+
+#quotation_popup_list .col_quote_terms {
+	width: 100px;
+}
+
+#quotation_popup_list .col_total_items {
+	width: 40px;
+}
+
+#quotation_popup_list .col_total_qty {
+	width: 60px;
+}
+
+#quotation_popup_list .col_amount {
+	width: 100px;
+}
+
+.discount_type{
+	width: 80px;
+}
+.payment_type_no_field{
+	width: 30px;
+}
+.payment_type_type_field{
+	margin-left: 20px;
+	width: 125px;
+}
+.payment_combine_type_field{
+	margin-left: 20px;
+	width: 120px;
+}
+.payment_type_amt_field{
+	width: 110px;
+}
+.payment_list_action_button {
+    color: #BBB;
+    cursor: pointer;
+}
+.payment_list_ok_single_item_button:hover {
+    color: green;
+    cursor: pointer;
+}
+.payment_list_edit_single_item_button:hover {
+    color: green;
+    cursor: pointer;
+}
+.payment_list_delete_single_item_button:hover {
+    color: red;
+    cursor: pointer;
+}
+.payment_combine{
+	border-top: 1px solid #888;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.payment_cal_total, .payment_cal_last_total{
+	font-size: 16px;
+}
+
+.deposit_item {
+	background-color: #ccc !important;
+}
+.quotation_item {
+	background-color: #FFFFCC !important;
+}
+.out_of_stock_item {
+	background-color: #f2dede !important;
+}
+
+.item_color{
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+.item_type{
+	float: left;
+    height: 20px;
+    width: 30px;
+    border: 1px solid black;
+	margin-right: 5px;
+}
+.item_type_d{
+	background: #ccc;
+}
+.item_type_q{
+	background: #FFFFCC;
+}
+.item_type_o{
+	background: #f2dede;
+}
+
+.text_group_button{
+	width: 225px;
+}

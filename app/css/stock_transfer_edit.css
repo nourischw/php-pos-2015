@@ -1,0 +1,317 @@
+.left_column { 
+	float: left;
+	width: 860px;
+}
+
+.right_column {
+	float: left;
+	margin-left: 20px;
+	width: 250px;
+}
+
+.left_column_form_block {
+    background: #CCC;
+    width: 100%;
+	padding: 10px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.product_info_column {
+	float: left;
+	width: 734px;
+}
+
+.form_block {
+	background: #CCC;
+	width: 300px;
+	float: left;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.stock_block_buttons {
+	width: 100px;
+}
+
+.form_title { 
+	font-size: 14px;
+	border-bottom: 1px solid #888;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #888;
+}
+
+.from_shop_info_row {
+	float: left;
+	width: 88%;
+	line-height: 25px;
+}
+
+#change_from_shop_button {
+	float: left;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+.form_row {
+	float: left;
+	line-height: 25px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.add_stock_form_label {
+	float: left;
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+	line-height: 25px;
+	margin-bottom: 0px !important;
+}
+
+.qty_text_field {
+	float: left;
+	margin-left: 10px;
+	line-height: 25px;
+	height: 25px;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	text-align: center;
+	padding: 0px 6px;
+}
+
+#add_product_button {
+	line-height: 10px;
+	height: 25px;
+	float: left;
+	margin-left: 10px;
+}
+
+.form_label {
+	float: left;
+	width: 80px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 0px !important;
+}
+
+.text_field {
+	float: left;
+	padding: 0px !important;
+	padding-left: 2px !important;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 25px;
+	width: 190px;
+}
+
+.calendar_icon {
+	border: 1px solid #AAA !important;
+	border-right: 0px !important;
+	padding: 0px 5px !important;
+	padding-left: 5px !important;
+	padding-right: 3px !important;
+}
+
+.list_container { 
+	float: left;
+	width: 100%;
+	height: 400px;
+}
+
+.from_shop_field {
+	float: left;
+	width: 260px;
+}
+
+.to_shop_field {
+	float: left;
+	width: 220px;
+}
+
+option:disabled {
+	background: #CCC;
+}
+
+#current_from_shop_name {
+	float: left;
+	color: #333;
+	width: 120px;
+}
+
+.from_shop_buttons {
+	margin-left: 10px;
+	height: 25px;
+	line-height: 8px; 
+	margin-top: -2px;
+}
+
+#item_already_exist_message { 
+	display: none;
+}
+
+.product_upc_field { 
+	float: left;
+	width: 400px;
+}
+
+.product_upc_text_field {
+	width: 200px; 
+}
+
+.qty_field {
+	margin-left: 50px;
+	float: left;
+	width: 200px;
+}
+
+.qty_text_field { 
+	width: 68px;
+	margin-right: 5px;
+}
+
+#add_item_button {
+	float: left;
+	height: 25px;
+	line-height: 14px;
+}
+
+.form-error_message {
+	float: left;
+	color: red;
+	font-weight: bold;
+}
+
+.list_items {
+	float: left;
+	max-height: 210px;
+	overflow: auto;
+	width: 100%;
+}
+
+.invalid_item {
+	background: #ffcccc;
+}
+
+.invalid_item .col_remain {
+	color: red;
+	font-weight: bold;
+}
+
+.list_transfer_qty {
+	height: 18px;
+	padding: 0px 2px !important;
+	text-align: center;
+}
+
+.list_total_items_column {
+	line-height: 14px; 
+}
+
+.total_label {
+	float: left;
+	width: 80px;
+	text-align: right;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.remark_textarea {
+	width: 280px;
+}
+
+.right_column .form-error_message {
+	margin-left: 90px;
+}
+
+.submit_button_row {
+	float: left;
+	padding: 10px;
+	background: #999;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#no_list_item_error_message { 
+	display: none;
+}
+
+.change_to_shop_button {
+	float: left;
+	margin-left: 90px;
+}
+
+#stock_transfer .col_index {
+	width: 20px;
+}
+
+#stock_transfer .col_product_upc {
+	width: 150px;
+	word-break: break-all;
+}
+
+#stock_transfer .col_product_name {
+	width: 450px;
+}
+
+#stock_transfer .product_sn {
+	color: #555;
+	font-style: italic;
+	font-size: 10px;
+}
+
+#stock_transfer .col_from_shop {
+	width: 120px;
+}
+
+#stock_transfer .col_to_shop {
+	width: 120px;
+}
+
+#stock_transfer .col_qty {
+	text-align: center;
+	width: 60px;
+}
+
+#stock_transfer .col_remain {
+	width: 60px;
+	text-align: center;
+}
+
+#stock_popup_list .form_label {
+	width: 100px;
+}
+
+#stock_popup_list .text_field {
+	width: 175px;
+}
+
+#stock_popup_list .col_product_upc {
+	margin-left: 10px;
+	width: 150px;
+}
+
+#stock_popup_list .col_product_name {
+	width: 400px;
+}
+
+#stock_popup_list .col_serial_number {
+	width: 200px;
+}
+
+#stock_popup_list .col_qty {
+	width: 80px;
+}
+
+.popup_list_items {
+	overflow: auto;
+	height: 400px;
+	width: 100%;
+}
+
+#create_new_record_button {
+	margin-left: 20px;
+}

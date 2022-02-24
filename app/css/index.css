@@ -1,0 +1,34 @@
+@charset "utf-8";
+iframe { overflow: hidden; }
+
+#index .menu_header { background: #F8F8F8; height: 100px; border-color: #e7e7e7; }
+#index .menu_sysyem { margin-top: 20px; margin-left: 50px; }
+#index .menu_main { margin-top: 20px; margin-left: 50px; }
+#index .menu_content { background: #EEEEEE; width: 860px; margin: 20px auto; }
+#index .menu_btn { float: left; padding: 15px; background: #EEEEEE; }
+#index .btn_b { width: 300px; height: 216px; border-color: #0099AC; }
+#index .btn_s { width: 300px; height: 100px; border-color: #5C39B6;}
+#index .nomal { margin-left: 10px; }
+#index .small { margin-left: 10px; }
+#index .mg_top { margin-top: 15px; }
+#index .btn-fn-key { width: 300px; height: 216px; margin: 0; }
+#index .btn_md { width: 250px; height: 100px; }
+#index .btn_xs { width: 125px; height: 100px; }
+#index .btn_big { display: block; margin: 0 auto; }
+#index .mg_left { margin-left: -20px; }
+#index .mg_left_p { margin-left: 10px; }
+#index .btn_text { color: #000; }
+
+#index .btn_border_a { border-color: #5398C1; }
+#index .btn_border_b { border-color: #3c763d; }
+#index .btn_border_c { border-color: #eea236; }
+#index .btn_border_d { border-color: #EE6CE6; }
+#index .btn_border_e { border-color: #A4E8FC; }
+#index .btn_border_f { }
+#index .btn_border_g { }
+#index .btn_border_h { }
+#index .btn_border_i { border-color: #aa6708; }
+#index .btn_border_r { border-color: #ce4844; }
+#index .empty_block { background: #DDD; height: 100%; width: 100%; border: 1px solid #CCC; border-radius: 4px }
+
+#index .menu_footer { background: #F8F8F8; height: 100px; border-color: #e7e7e7; position: fixed; bottom: 0; }
